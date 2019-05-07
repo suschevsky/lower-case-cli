@@ -1,0 +1,26 @@
+{
+  "name": "lower-case-cli",
+  "version": "1.0.0",
+  "description": "Command line version of lower-case",
+  "main": "lower-case.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suschevsky/lower-case-cli.git"
+  },
+  "author": "Sergey Suschevsky <suschevsky.sv@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suschevsky/lower-case-cli/issues"
+  },
+  "bin": {
+    "lower-case": "lower-case.js"
+  },
+  "homepage": "https://github.com/suschevsky/lower-case-cli#readme",
+  "dependencies": {
+    "commander": "2.20.0",
+    "lower-case": "1.1.4"
+  }
+}
